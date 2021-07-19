@@ -67,7 +67,7 @@ public class TestCase1MenusWalkthrough implements ExceptionsReporter {
     by = By.cssSelector("#login-password");
     driver.findElement(by).click();
 
-    // 5. Type 'Stayanonymous1' in 'password'
+    // 5. Type 'Myautopassword' in 'password'
     GeneratedUtils.sleep(500);
     by = By.cssSelector("#login-password");
     driver.findElement(by).sendKeys("Stayanonymous1");
