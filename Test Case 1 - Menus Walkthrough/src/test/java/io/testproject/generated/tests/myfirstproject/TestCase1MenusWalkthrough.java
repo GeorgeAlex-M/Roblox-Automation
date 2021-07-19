@@ -32,7 +32,7 @@ public class TestCase1MenusWalkthrough implements ExceptionsReporter {
 
   @BeforeAll
   static void setup() throws Exception {
-    driver = new RemoteWebDriver("D_WzgBiU9GLSNgZMk6BVAlWIZU7IhmUQCcgNouQbfkM", new ChromeOptions(), "George Manea");
+    driver = new RemoteWebDriver("xxxxxx", new ChromeOptions(), "George Manea");
   }
 
   /**
@@ -70,7 +70,7 @@ public class TestCase1MenusWalkthrough implements ExceptionsReporter {
     // 5. Type 'Myautopassword' in 'password'
     GeneratedUtils.sleep(500);
     by = By.cssSelector("#login-password");
-    driver.findElement(by).sendKeys("Stayanonymous1");
+    driver.findElement(by).sendKeys("Myautopassword");
 
     // 6. Click 'Log In'
     GeneratedUtils.sleep(500);
